@@ -1,5 +1,5 @@
 {% set name = "bmi-topography" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/csdms/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: a83e591e175c1cf99714a72028f1103ec211c3b2d51a7390145108cc8cda0b19
+  sha256: 600246a0e62130990e53acb9727ebca6f8dc0ce3dd6e9a642fa16d5b6db7300d
 
 build:
   noarch: python
