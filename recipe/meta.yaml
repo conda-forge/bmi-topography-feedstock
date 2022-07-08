@@ -42,11 +42,11 @@ about:
   license_family: MIT
   license_file: LICENSE.md
   summary: |
-    Fetch and cache NASA Shuttle Radar Topography Mission (SRTM) land elevation data
+    Fetch and cache land elevation data from OpenTopography
   description: |
     bmi-topography is a Python library that allows a user to fetch and cache
-    NASA Shuttle Radar Topography Mission (SRTM) land elevation data using the
-    OpenTopography REST API. It presents the user with an API, CLI, and BMI.
+    land elevation data from multiple sources using the OpenTopography REST API.
+    It presents the user with an API, CLI, and BMI.
   doc_url: https://bmi-topography.readthedocs.io
   dev_url: https://github.com/csdms/bmi-topography
 
