@@ -37,7 +37,7 @@ test:
     - bmi-topography --help
 
 about:
-  home: https://github.com/csdms/bmi-topography
+  home: https://csdms.colorado.edu/wiki/DataComponents
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
