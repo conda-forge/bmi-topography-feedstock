@@ -1,5 +1,5 @@
 {% set name = "bmi-topography" %}
-{% set version = "0.8.4" %}
+{% set version = "0.8.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/csdms/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: efad5a08c0ca825959dc4f24fd2dff096c810303f3014ce0f113b3dabeb2173b
+  sha256: 738df2b95b3a6924542383313d9ef739f2fbc649ec6f4103a74d651510c493d3
 
 build:
   noarch: python
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
   run:
-    - python >=3.7
+    - python >=3.9
     - numpy
     - rioxarray
     - requests
@@ -37,7 +37,7 @@ test:
     - bmi-topography --help
 
 about:
-  home: https://github.com/csdms/bmi-topography
+  home: https://csdms.colorado.edu/wiki/DataComponents
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
