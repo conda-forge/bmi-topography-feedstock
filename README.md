@@ -3,7 +3,7 @@ About bmi-topography-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bmi-topography-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/csdms/bmi-topography
+Home: https://csdms.colorado.edu/wiki/DataComponents
 
 Package license: MIT
 
