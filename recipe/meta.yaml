@@ -1,5 +1,5 @@
 {% set name = "bmi-topography" %}
-{% set version = "0.8.5" %}
+{% set version = "0.8.6" %}
 # {% set python_min = python_min|default("3.10") %}
 {% set python_min = "3.10" %}
 
@@ -9,11 +9,11 @@ package:
 
 source:
   url: https://github.com/csdms/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 738df2b95b3a6924542383313d9ef739f2fbc649ec6f4103a74d651510c493d3
+  sha256: 1300f9753b80f66e045fec5332b32ad46c7c41da509f8f13f6f38a97828c987b
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - bmi-topography=bmi_topography.cli:main
